@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63253C882AC42FE2001F44DB /* PatientVitals WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 63253C872AC42FE2001F44DB /* PatientVitals WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		63253C8D2AC42FE5001F44DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63253C8C2AC42FE5001F44DB /* Assets.xcassets */; };
+		63253C932AC42FE5001F44DB /* PatientVitals WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 63253C922AC42FE5001F44DB /* PatientVitals WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		63253C982AC42FE5001F44DB /* PatientVitalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C972AC42FE5001F44DB /* PatientVitalsApp.swift */; };
+		63253C9A2AC42FE5001F44DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C992AC42FE5001F44DB /* ContentView.swift */; };
+		63253C9C2AC42FE5001F44DB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C9B2AC42FE5001F44DB /* NotificationController.swift */; };
+		63253C9E2AC42FE5001F44DB /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C9D2AC42FE5001F44DB /* NotificationView.swift */; };
+		63253CA02AC42FE5001F44DB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C9F2AC42FE5001F44DB /* ComplicationController.swift */; };
+		63253CA22AC42FE7001F44DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63253CA12AC42FE7001F44DB /* Assets.xcassets */; };
+		63253CA52AC42FE7001F44DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63253CA42AC42FE7001F44DB /* Preview Assets.xcassets */; };
+		63253CB12AC42FE7001F44DB /* PatientVitalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CB02AC42FE7001F44DB /* PatientVitalsTests.swift */; };
+		63253CBB2AC42FE7001F44DB /* PatientVitalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CBA2AC42FE7001F44DB /* PatientVitalsUITests.swift */; };
+		63253CBD2AC42FE7001F44DB /* PatientVitalsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CBC2AC42FE7001F44DB /* PatientVitalsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63253C892AC42FE2001F44DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63253C7D2AC42FE1001F44DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63253C862AC42FE2001F44DB;
+			remoteInfo = "PatientVitals WatchKit App";
+		};
+		63253C942AC42FE5001F44DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63253C7D2AC42FE1001F44DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63253C912AC42FE5001F44DB;
+			remoteInfo = "PatientVitals WatchKit Extension";
+		};
+		63253CAD2AC42FE7001F44DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63253C7D2AC42FE1001F44DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63253C912AC42FE5001F44DB;
+			remoteInfo = "PatientVitals WatchKit Extension";
+		};
+		63253CB72AC42FE7001F44DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63253C7D2AC42FE1001F44DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63253C862AC42FE2001F44DB;
+			remoteInfo = "PatientVitals WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63253CC32AC42FE7001F44DB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				63253C932AC42FE5001F44DB /* PatientVitals WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63253CC72AC42FE7001F44DB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				63253C882AC42FE2001F44DB /* PatientVitals WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63253C832AC42FE1001F44DB /* PatientVitals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientVitals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63253C872AC42FE2001F44DB /* PatientVitals WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PatientVitals WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63253C8C2AC42FE5001F44DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63253C922AC42FE5001F44DB /* PatientVitals WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PatientVitals WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63253C972AC42FE5001F44DB /* PatientVitalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVitalsApp.swift; sourceTree = "<group>"; };
+		63253C992AC42FE5001F44DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63253C9B2AC42FE5001F44DB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		63253C9D2AC42FE5001F44DB /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		63253C9F2AC42FE5001F44DB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		63253CA12AC42FE7001F44DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63253CA42AC42FE7001F44DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63253CA62AC42FE7001F44DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63253CA72AC42FE7001F44DB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		63253CAC2AC42FE7001F44DB /* PatientVitalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientVitalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63253CB02AC42FE7001F44DB /* PatientVitalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVitalsTests.swift; sourceTree = "<group>"; };
+		63253CB62AC42FE7001F44DB /* PatientVitalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientVitalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63253CBA2AC42FE7001F44DB /* PatientVitalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVitalsUITests.swift; sourceTree = "<group>"; };
+		63253CBC2AC42FE7001F44DB /* PatientVitalsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVitalsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63253C8F2AC42FE5001F44DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63253CA92AC42FE7001F44DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63253CB32AC42FE7001F44DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63253C7C2AC42FE1001F44DB = {
+			isa = PBXGroup;
+			children = (
+				63253C8B2AC42FE2001F44DB /* PatientVitals WatchKit App */,
+				63253C962AC42FE5001F44DB /* PatientVitals WatchKit Extension */,
+				63253CAF2AC42FE7001F44DB /* PatientVitalsTests */,
+				63253CB92AC42FE7001F44DB /* PatientVitalsUITests */,
+				63253C842AC42FE1001F44DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63253C842AC42FE1001F44DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63253C832AC42FE1001F44DB /* PatientVitals.app */,
+				63253C872AC42FE2001F44DB /* PatientVitals WatchKit App.app */,
+				63253C922AC42FE5001F44DB /* PatientVitals WatchKit Extension.appex */,
+				63253CAC2AC42FE7001F44DB /* PatientVitalsTests.xctest */,
+				63253CB62AC42FE7001F44DB /* PatientVitalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63253C8B2AC42FE2001F44DB /* PatientVitals WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				63253C8C2AC42FE5001F44DB /* Assets.xcassets */,
+			);
+			path = "PatientVitals WatchKit App";
+			sourceTree = "<group>";
+		};
+		63253C962AC42FE5001F44DB /* PatientVitals WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				63253C972AC42FE5001F44DB /* PatientVitalsApp.swift */,
+				63253C992AC42FE5001F44DB /* ContentView.swift */,
+				63253C9B2AC42FE5001F44DB /* NotificationController.swift */,
+				63253C9D2AC42FE5001F44DB /* NotificationView.swift */,
+				63253C9F2AC42FE5001F44DB /* ComplicationController.swift */,
+				63253CA12AC42FE7001F44DB /* Assets.xcassets */,
+				63253CA62AC42FE7001F44DB /* Info.plist */,
+				63253CA72AC42FE7001F44DB /* PushNotificationPayload.apns */,
+				63253CA32AC42FE7001F44DB /* Preview Content */,
+			);
+			path = "PatientVitals WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		63253CA32AC42FE7001F44DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63253CA42AC42FE7001F44DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63253CAF2AC42FE7001F44DB /* PatientVitalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				63253CB02AC42FE7001F44DB /* PatientVitalsTests.swift */,
+			);
+			path = PatientVitalsTests;
+			sourceTree = "<group>";
+		};
+		63253CB92AC42FE7001F44DB /* PatientVitalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63253CBA2AC42FE7001F44DB /* PatientVitalsUITests.swift */,
+				63253CBC2AC42FE7001F44DB /* PatientVitalsUITestsLaunchTests.swift */,
+			);
+			path = PatientVitalsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63253C822AC42FE1001F44DB /* PatientVitals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63253CC82AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitals" */;
+			buildPhases = (
+				63253C812AC42FE1001F44DB /* Resources */,
+				63253CC72AC42FE7001F44DB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63253C8A2AC42FE2001F44DB /* PBXTargetDependency */,
+			);
+			name = PatientVitals;
+			productName = PatientVitals;
+			productReference = 63253C832AC42FE1001F44DB /* PatientVitals.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		63253C862AC42FE2001F44DB /* PatientVitals WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63253CC42AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitals WatchKit App" */;
+			buildPhases = (
+				63253C852AC42FE2001F44DB /* Resources */,
+				63253CC32AC42FE7001F44DB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63253C952AC42FE5001F44DB /* PBXTargetDependency */,
+			);
+			name = "PatientVitals WatchKit App";
+			productName = "PatientVitals WatchKit App";
+			productReference = 63253C872AC42FE2001F44DB /* PatientVitals WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		63253C912AC42FE5001F44DB /* PatientVitals WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63253CC02AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitals WatchKit Extension" */;
+			buildPhases = (
+				63253C8E2AC42FE5001F44DB /* Sources */,
+				63253C8F2AC42FE5001F44DB /* Frameworks */,
+				63253C902AC42FE5001F44DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PatientVitals WatchKit Extension";
+			productName = "PatientVitals WatchKit Extension";
+			productReference = 63253C922AC42FE5001F44DB /* PatientVitals WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		63253CAB2AC42FE7001F44DB /* PatientVitalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63253CCB2AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitalsTests" */;
+			buildPhases = (
+				63253CA82AC42FE7001F44DB /* Sources */,
+				63253CA92AC42FE7001F44DB /* Frameworks */,
+				63253CAA2AC42FE7001F44DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63253CAE2AC42FE7001F44DB /* PBXTargetDependency */,
+			);
+			name = PatientVitalsTests;
+			productName = PatientVitalsTests;
+			productReference = 63253CAC2AC42FE7001F44DB /* PatientVitalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63253CB52AC42FE7001F44DB /* PatientVitalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63253CCE2AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitalsUITests" */;
+			buildPhases = (
+				63253CB22AC42FE7001F44DB /* Sources */,
+				63253CB32AC42FE7001F44DB /* Frameworks */,
+				63253CB42AC42FE7001F44DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63253CB82AC42FE7001F44DB /* PBXTargetDependency */,
+			);
+			name = PatientVitalsUITests;
+			productName = PatientVitalsUITests;
+			productReference = 63253CB62AC42FE7001F44DB /* PatientVitalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63253C7D2AC42FE1001F44DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					63253C822AC42FE1001F44DB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					63253C862AC42FE2001F44DB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					63253C912AC42FE5001F44DB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					63253CAB2AC42FE7001F44DB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 63253C912AC42FE5001F44DB;
+					};
+					63253CB52AC42FE7001F44DB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 63253C862AC42FE2001F44DB;
+					};
+				};
+			};
+			buildConfigurationList = 63253C802AC42FE1001F44DB /* Build configuration list for PBXProject "PatientVitals" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63253C7C2AC42FE1001F44DB;
+			productRefGroup = 63253C842AC42FE1001F44DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63253C822AC42FE1001F44DB /* PatientVitals */,
+				63253C862AC42FE2001F44DB /* PatientVitals WatchKit App */,
+				63253C912AC42FE5001F44DB /* PatientVitals WatchKit Extension */,
+				63253CAB2AC42FE7001F44DB /* PatientVitalsTests */,
+				63253CB52AC42FE7001F44DB /* PatientVitalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63253C812AC42FE1001F44DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63253C852AC42FE2001F44DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63253C8D2AC42FE5001F44DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63253C902AC42FE5001F44DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63253CA52AC42FE7001F44DB /* Preview Assets.xcassets in Resources */,
+				63253CA22AC42FE7001F44DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63253CAA2AC42FE7001F44DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63253CB42AC42FE7001F44DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63253C8E2AC42FE5001F44DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63253C9C2AC42FE5001F44DB /* NotificationController.swift in Sources */,
+				63253C9A2AC42FE5001F44DB /* ContentView.swift in Sources */,
+				63253CA02AC42FE5001F44DB /* ComplicationController.swift in Sources */,
+				63253C982AC42FE5001F44DB /* PatientVitalsApp.swift in Sources */,
+				63253C9E2AC42FE5001F44DB /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63253CA82AC42FE7001F44DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63253CB12AC42FE7001F44DB /* PatientVitalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63253CB22AC42FE7001F44DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63253CBB2AC42FE7001F44DB /* PatientVitalsUITests.swift in Sources */,
+				63253CBD2AC42FE7001F44DB /* PatientVitalsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63253C8A2AC42FE2001F44DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63253C862AC42FE2001F44DB /* PatientVitals WatchKit App */;
+			targetProxy = 63253C892AC42FE2001F44DB /* PBXContainerItemProxy */;
+		};
+		63253C952AC42FE5001F44DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63253C912AC42FE5001F44DB /* PatientVitals WatchKit Extension */;
+			targetProxy = 63253C942AC42FE5001F44DB /* PBXContainerItemProxy */;
+		};
+		63253CAE2AC42FE7001F44DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63253C912AC42FE5001F44DB /* PatientVitals WatchKit Extension */;
+			targetProxy = 63253CAD2AC42FE7001F44DB /* PBXContainerItemProxy */;
+		};
+		63253CB82AC42FE7001F44DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63253C862AC42FE2001F44DB /* PatientVitals WatchKit App */;
+			targetProxy = 63253CB72AC42FE7001F44DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63253CBE2AC42FE7001F44DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63253CBF2AC42FE7001F44DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63253CC12AC42FE7001F44DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PatientVitals WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 642SNXYJSF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PatientVitals WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PatientVitals WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandra-hospital.PatientVitals.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		63253CC22AC42FE7001F44DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PatientVitals WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 642SNXYJSF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PatientVitals WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PatientVitals WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandra-hospital.PatientVitals.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		63253CC52AC42FE7001F44DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 642SNXYJSF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = PatientVitals_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "PatientVitals WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandra-hospital.PatientVitals.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		63253CC62AC42FE7001F44DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 642SNXYJSF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = PatientVitals_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "PatientVitals WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandra-hospital.PatientVitals.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		63253CC92AC42FE7001F44DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 642SNXYJSF;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandra-hospital.PatientVitals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63253CCA2AC42FE7001F44DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 642SNXYJSF;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandra-hospital.PatientVitals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		63253CCC2AC42FE7001F44DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 642SNXYJSF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandra-hospital.PatientVitalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientVitals WatchKit Extension.appex/PatientVitals WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		63253CCD2AC42FE7001F44DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 642SNXYJSF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandra-hospital.PatientVitalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientVitals WatchKit Extension.appex/PatientVitals WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		63253CCF2AC42FE7001F44DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 642SNXYJSF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandra-hospital.PatientVitalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PatientVitals WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		63253CD02AC42FE7001F44DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 642SNXYJSF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandra-hospital.PatientVitalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PatientVitals WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63253C802AC42FE1001F44DB /* Build configuration list for PBXProject "PatientVitals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63253CBE2AC42FE7001F44DB /* Debug */,
+				63253CBF2AC42FE7001F44DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63253CC02AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitals WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63253CC12AC42FE7001F44DB /* Debug */,
+				63253CC22AC42FE7001F44DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63253CC42AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitals WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63253CC52AC42FE7001F44DB /* Debug */,
+				63253CC62AC42FE7001F44DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63253CC82AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63253CC92AC42FE7001F44DB /* Debug */,
+				63253CCA2AC42FE7001F44DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63253CCB2AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63253CCC2AC42FE7001F44DB /* Debug */,
+				63253CCD2AC42FE7001F44DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63253CCE2AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63253CCF2AC42FE7001F44DB /* Debug */,
+				63253CD02AC42FE7001F44DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63253C7D2AC42FE1001F44DB /* Project object */;
+}
