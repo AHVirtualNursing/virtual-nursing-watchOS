@@ -1,0 +1,6 @@
+framework module Pods_PatientVitals {
+  umbrella header "Pods-PatientVitals-umbrella.h"
+
+  export *
+  module * { export * }
+}
