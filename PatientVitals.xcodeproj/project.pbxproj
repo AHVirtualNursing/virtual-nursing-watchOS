@@ -11,15 +11,23 @@
 		63253C8D2AC42FE5001F44DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63253C8C2AC42FE5001F44DB /* Assets.xcassets */; };
 		63253C932AC42FE5001F44DB /* PatientVitals WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 63253C922AC42FE5001F44DB /* PatientVitals WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		63253C982AC42FE5001F44DB /* PatientVitalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C972AC42FE5001F44DB /* PatientVitalsApp.swift */; };
-		63253C9A2AC42FE5001F44DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C992AC42FE5001F44DB /* ContentView.swift */; };
+		63253C9A2AC42FE5001F44DB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C992AC42FE5001F44DB /* StartView.swift */; };
 		63253C9C2AC42FE5001F44DB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C9B2AC42FE5001F44DB /* NotificationController.swift */; };
 		63253C9E2AC42FE5001F44DB /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C9D2AC42FE5001F44DB /* NotificationView.swift */; };
 		63253CA02AC42FE5001F44DB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253C9F2AC42FE5001F44DB /* ComplicationController.swift */; };
 		63253CA22AC42FE7001F44DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63253CA12AC42FE7001F44DB /* Assets.xcassets */; };
 		63253CA52AC42FE7001F44DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63253CA42AC42FE7001F44DB /* Preview Assets.xcassets */; };
-		63253CB12AC42FE7001F44DB /* PatientVitalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CB02AC42FE7001F44DB /* PatientVitalsTests.swift */; };
-		63253CBB2AC42FE7001F44DB /* PatientVitalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CBA2AC42FE7001F44DB /* PatientVitalsUITests.swift */; };
-		63253CBD2AC42FE7001F44DB /* PatientVitalsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CBC2AC42FE7001F44DB /* PatientVitalsUITestsLaunchTests.swift */; };
+		63253CD22AC43308001F44DB /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CD12AC43308001F44DB /* SessionPagingView.swift */; };
+		63253CD42AC435B0001F44DB /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CD32AC435B0001F44DB /* MetricsView.swift */; };
+		63253CD62AC437AA001F44DB /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CD52AC437AA001F44DB /* ElapsedTimeView.swift */; };
+		63253CD82AC4401A001F44DB /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CD72AC4401A001F44DB /* WorkoutManager.swift */; };
+		63253CDC2AC444B2001F44DB /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63253CDB2AC444B2001F44DB /* HealthKit.framework */; };
+		63253CDE2AC44A46001F44DB /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CDD2AC44A46001F44DB /* ControlsView.swift */; };
+		63253CE02AC44AE6001F44DB /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63253CDF2AC44AE6001F44DB /* SummaryView.swift */; };
+		63AE937B2AC95B0100274C1B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 63AE937A2AC95B0100274C1B /* Podfile */; };
+		A3FA2D00BE703EEEF1419296 /* Pods_PatientVitals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0526FDBBBDB11E6697CD080C /* Pods_PatientVitals.framework */; };
+		B88CF1DB5FC421B3A8AD21E9 /* Pods_PatientVitals_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009667FB3522D45227D83E4F /* Pods_PatientVitals_WatchKit_App.framework */; };
+		CA35938BE9F43DE547ECDBD3 /* Pods_PatientVitals_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878E4E2A145DDC3A92C66E1E /* Pods_PatientVitals_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,12 +87,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		009667FB3522D45227D83E4F /* Pods_PatientVitals_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatientVitals_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0526FDBBBDB11E6697CD080C /* Pods_PatientVitals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatientVitals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D83E471190283643F08E63 /* Pods-PatientVitals WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientVitals WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-PatientVitals WatchKit App/Pods-PatientVitals WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		3D0BCB9E90E622BAB65A748E /* Pods-PatientVitals WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientVitals WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-PatientVitals WatchKit Extension/Pods-PatientVitals WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		63253C832AC42FE1001F44DB /* PatientVitals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientVitals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63253C872AC42FE2001F44DB /* PatientVitals WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PatientVitals WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63253C8C2AC42FE5001F44DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63253C922AC42FE5001F44DB /* PatientVitals WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PatientVitals WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63253C972AC42FE5001F44DB /* PatientVitalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVitalsApp.swift; sourceTree = "<group>"; };
-		63253C992AC42FE5001F44DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63253C992AC42FE5001F44DB /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		63253C9B2AC42FE5001F44DB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		63253C9D2AC42FE5001F44DB /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		63253C9F2AC42FE5001F44DB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -93,17 +105,38 @@
 		63253CA62AC42FE7001F44DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63253CA72AC42FE7001F44DB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		63253CAC2AC42FE7001F44DB /* PatientVitalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientVitalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		63253CB02AC42FE7001F44DB /* PatientVitalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVitalsTests.swift; sourceTree = "<group>"; };
 		63253CB62AC42FE7001F44DB /* PatientVitalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientVitalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		63253CBA2AC42FE7001F44DB /* PatientVitalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVitalsUITests.swift; sourceTree = "<group>"; };
-		63253CBC2AC42FE7001F44DB /* PatientVitalsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientVitalsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63253CD12AC43308001F44DB /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		63253CD32AC435B0001F44DB /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		63253CD52AC437AA001F44DB /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		63253CD72AC4401A001F44DB /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		63253CD92AC444B2001F44DB /* PatientVitals WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PatientVitals WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		63253CDB2AC444B2001F44DB /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		63253CDD2AC44A46001F44DB /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		63253CDF2AC44AE6001F44DB /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		63AE937A2AC95B0100274C1B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		878E4E2A145DDC3A92C66E1E /* Pods_PatientVitals_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatientVitals_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6083EBE8B0210393C7F85A /* Pods-PatientVitals WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientVitals WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-PatientVitals WatchKit Extension/Pods-PatientVitals WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		DCF7F3C04A3A9C85E24E20F5 /* Pods-PatientVitals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientVitals.debug.xcconfig"; path = "Target Support Files/Pods-PatientVitals/Pods-PatientVitals.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D077028BAC0CC8ED7538C8 /* Pods-PatientVitals WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientVitals WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-PatientVitals WatchKit App/Pods-PatientVitals WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		FA3C012A9EF4F642DC5E0F4D /* Pods-PatientVitals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientVitals.release.xcconfig"; path = "Target Support Files/Pods-PatientVitals/Pods-PatientVitals.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3DB080ED74C782ECC903E402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FA2D00BE703EEEF1419296 /* Pods_PatientVitals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63253C8F2AC42FE5001F44DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63253CDC2AC444B2001F44DB /* HealthKit.framework in Frameworks */,
+				CA35938BE9F43DE547ECDBD3 /* Pods_PatientVitals_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,17 +154,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		846DABE265A8CE51FBDAE38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88CF1DB5FC421B3A8AD21E9 /* Pods_PatientVitals_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A94107AF6E39E2544D938BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCF7F3C04A3A9C85E24E20F5 /* Pods-PatientVitals.debug.xcconfig */,
+				FA3C012A9EF4F642DC5E0F4D /* Pods-PatientVitals.release.xcconfig */,
+				E8D077028BAC0CC8ED7538C8 /* Pods-PatientVitals WatchKit App.debug.xcconfig */,
+				24D83E471190283643F08E63 /* Pods-PatientVitals WatchKit App.release.xcconfig */,
+				3D0BCB9E90E622BAB65A748E /* Pods-PatientVitals WatchKit Extension.debug.xcconfig */,
+				9A6083EBE8B0210393C7F85A /* Pods-PatientVitals WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		63253C7C2AC42FE1001F44DB = {
 			isa = PBXGroup;
 			children = (
+				63AE937A2AC95B0100274C1B /* Podfile */,
 				63253C8B2AC42FE2001F44DB /* PatientVitals WatchKit App */,
 				63253C962AC42FE5001F44DB /* PatientVitals WatchKit Extension */,
-				63253CAF2AC42FE7001F44DB /* PatientVitalsTests */,
-				63253CB92AC42FE7001F44DB /* PatientVitalsUITests */,
 				63253C842AC42FE1001F44DB /* Products */,
+				63253CDA2AC444B2001F44DB /* Frameworks */,
+				1A94107AF6E39E2544D938BB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,8 +214,15 @@
 		63253C962AC42FE5001F44DB /* PatientVitals WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				63253CD92AC444B2001F44DB /* PatientVitals WatchKit Extension.entitlements */,
 				63253C972AC42FE5001F44DB /* PatientVitalsApp.swift */,
-				63253C992AC42FE5001F44DB /* ContentView.swift */,
+				63253C992AC42FE5001F44DB /* StartView.swift */,
+				63253CDF2AC44AE6001F44DB /* SummaryView.swift */,
+				63253CD12AC43308001F44DB /* SessionPagingView.swift */,
+				63253CD32AC435B0001F44DB /* MetricsView.swift */,
+				63253CDD2AC44A46001F44DB /* ControlsView.swift */,
+				63253CD72AC4401A001F44DB /* WorkoutManager.swift */,
+				63253CD52AC437AA001F44DB /* ElapsedTimeView.swift */,
 				63253C9B2AC42FE5001F44DB /* NotificationController.swift */,
 				63253C9D2AC42FE5001F44DB /* NotificationView.swift */,
 				63253C9F2AC42FE5001F44DB /* ComplicationController.swift */,
@@ -179,21 +242,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		63253CAF2AC42FE7001F44DB /* PatientVitalsTests */ = {
+		63253CDA2AC444B2001F44DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63253CB02AC42FE7001F44DB /* PatientVitalsTests.swift */,
+				63253CDB2AC444B2001F44DB /* HealthKit.framework */,
+				0526FDBBBDB11E6697CD080C /* Pods_PatientVitals.framework */,
+				009667FB3522D45227D83E4F /* Pods_PatientVitals_WatchKit_App.framework */,
+				878E4E2A145DDC3A92C66E1E /* Pods_PatientVitals_WatchKit_Extension.framework */,
 			);
-			path = PatientVitalsTests;
-			sourceTree = "<group>";
-		};
-		63253CB92AC42FE7001F44DB /* PatientVitalsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				63253CBA2AC42FE7001F44DB /* PatientVitalsUITests.swift */,
-				63253CBC2AC42FE7001F44DB /* PatientVitalsUITestsLaunchTests.swift */,
-			);
-			path = PatientVitalsUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +260,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63253CC82AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitals" */;
 			buildPhases = (
+				9BBD5A4DC636540CECFE7DA3 /* [CP] Check Pods Manifest.lock */,
 				63253C812AC42FE1001F44DB /* Resources */,
 				63253CC72AC42FE7001F44DB /* Embed Watch Content */,
+				3DB080ED74C782ECC903E402 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,8 +279,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63253CC42AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitals WatchKit App" */;
 			buildPhases = (
+				19E43776D0C13E203E08AE8A /* [CP] Check Pods Manifest.lock */,
 				63253C852AC42FE2001F44DB /* Resources */,
 				63253CC32AC42FE7001F44DB /* Embed App Extensions */,
+				846DABE265A8CE51FBDAE38C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63253CC02AC42FE7001F44DB /* Build configuration list for PBXNativeTarget "PatientVitals WatchKit Extension" */;
 			buildPhases = (
+				AC553FFB98365D5F37340DAE /* [CP] Check Pods Manifest.lock */,
 				63253C8E2AC42FE5001F44DB /* Sources */,
 				63253C8F2AC42FE5001F44DB /* Frameworks */,
 				63253C902AC42FE5001F44DB /* Resources */,
+				6055458503C7258AA3687D8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,6 +387,9 @@
 				Base,
 			);
 			mainGroup = 63253C7C2AC42FE1001F44DB;
+			packageReferences = (
+				63AE93772AC9572400274C1B /* XCRemoteSwiftPackageReference "socket.io-client-swift" */,
+			);
 			productRefGroup = 63253C842AC42FE1001F44DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -357,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63AE937B2AC95B0100274C1B /* Podfile in Resources */,
 				63253CA52AC42FE7001F44DB /* Preview Assets.xcassets in Resources */,
 				63253CA22AC42FE7001F44DB /* Assets.xcassets in Resources */,
 			);
@@ -378,16 +445,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19E43776D0C13E203E08AE8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientVitals WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6055458503C7258AA3687D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientVitals WatchKit Extension/Pods-PatientVitals WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientVitals WatchKit Extension/Pods-PatientVitals WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientVitals WatchKit Extension/Pods-PatientVitals WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BBD5A4DC636540CECFE7DA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientVitals-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC553FFB98365D5F37340DAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientVitals WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63253C8E2AC42FE5001F44DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63253CD62AC437AA001F44DB /* ElapsedTimeView.swift in Sources */,
 				63253C9C2AC42FE5001F44DB /* NotificationController.swift in Sources */,
-				63253C9A2AC42FE5001F44DB /* ContentView.swift in Sources */,
+				63253CE02AC44AE6001F44DB /* SummaryView.swift in Sources */,
+				63253CD82AC4401A001F44DB /* WorkoutManager.swift in Sources */,
+				63253CD42AC435B0001F44DB /* MetricsView.swift in Sources */,
+				63253C9A2AC42FE5001F44DB /* StartView.swift in Sources */,
 				63253CA02AC42FE5001F44DB /* ComplicationController.swift in Sources */,
 				63253C982AC42FE5001F44DB /* PatientVitalsApp.swift in Sources */,
 				63253C9E2AC42FE5001F44DB /* NotificationView.swift in Sources */,
+				63253CDE2AC44A46001F44DB /* ControlsView.swift in Sources */,
+				63253CD22AC43308001F44DB /* SessionPagingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +554,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63253CB12AC42FE7001F44DB /* PatientVitalsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,8 +561,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63253CBB2AC42FE7001F44DB /* PatientVitalsUITests.swift in Sources */,
-				63253CBD2AC42FE7001F44DB /* PatientVitalsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,8 +706,10 @@
 		};
 		63253CC12AC42FE7001F44DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0BCB9E90E622BAB65A748E /* Pods-PatientVitals WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "PatientVitals WatchKit Extension/PatientVitals WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PatientVitals WatchKit Extension/Preview Content\"";
@@ -560,7 +718,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PatientVitals WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "PatientVitals WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = PatientVitals_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -582,8 +740,10 @@
 		};
 		63253CC22AC42FE7001F44DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6083EBE8B0210393C7F85A /* Pods-PatientVitals WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "PatientVitals WatchKit Extension/PatientVitals WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PatientVitals WatchKit Extension/Preview Content\"";
@@ -592,7 +752,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PatientVitals WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "PatientVitals WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = PatientVitals_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -614,6 +774,7 @@
 		};
 		63253CC52AC42FE7001F44DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D077028BAC0CC8ED7538C8 /* Pods-PatientVitals WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -639,6 +800,7 @@
 		};
 		63253CC62AC42FE7001F44DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24D83E471190283643F08E63 /* Pods-PatientVitals WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -664,6 +826,7 @@
 		};
 		63253CC92AC42FE7001F44DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF7F3C04A3A9C85E24E20F5 /* Pods-PatientVitals.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -677,6 +840,7 @@
 		};
 		63253CCA2AC42FE7001F44DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3C012A9EF4F642DC5E0F4D /* Pods-PatientVitals.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -846,6 +1010,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63AE93772AC9572400274C1B /* XCRemoteSwiftPackageReference "socket.io-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 63253C7D2AC42FE1001F44DB /* Project object */;
 }
