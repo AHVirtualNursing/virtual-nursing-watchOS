@@ -133,7 +133,7 @@ class WorkoutManager: NSObject, ObservableObject {
         healthStore.execute(query)
 
         
-        self.socket?.emit("watchData", ["patientId": self.patientId ?? "", "time": formattedDate, "heartrate": heartRate])
+        self.socket?.emit("watchData", ["patientId": self.patientId ?? "", "datetime": formattedDate, "heartRate": heartRate])
     }
     
     func requestAuthorisation() {
